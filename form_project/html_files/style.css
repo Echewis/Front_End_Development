@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+    color: blue;
+}
+.personnal {
+    background-color: rgb(181, 162, 162);
+    color: brown;
+    border-color: 10px rgb(209, 27, 27);
+}
+.professional {
+    color:brown;
+    background: url(img/tech.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+legend {
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input {
+    background-color: greenyellow;
+}

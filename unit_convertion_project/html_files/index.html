@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Unit Convertion Page</title>
+    </head>
+    <body>
+        <section id="home">
+            <header><h1>Units Convertion</h1></header>
+        <nav>
+            <a href="#temperature" ><button style=" background-color: rgb(171, 144, 168);font-weight: bolder">
+                TEMPERATURE</button></a>
+            <a href="#weight"><button style=" background-color: rgb(171, 144, 168);font-weight: bolder">
+                WEIGHT</button></a>
+            <a href="#distance"><button style=" background-color: rgb(171, 144, 168);font-weight: bolder">
+                DISTANCE</button></a>
+        </nav>
+        </section>
+
+        <div style="clear:both"></div>
+
+        <div id="all-convertion">
+            <!-- for all convertion-->
+            <section id="temperature" class="b temp">
+                <div id="tmp">
+                    <figure>
+                        <img src="img/temp.jpg" width="150px">
+                        <figcaption>Celsius to Ferenheit Convertion</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>TEMPERATURE</legend>
+                            <label>Celsius</label><br>
+                            <input type="number" id="c"><br>
+                            <button id="temperature" onclick="temperature()">Convert</button><br>
+                            <input type="number" id="f"><br>
+                            <label>Ferenheit</label><br>
+                        </fieldset>
+                    </article>
+                    <aside>
+                        To convert to celsuis to Ferenheit your self, use this formula replacing the `C` with your temperaturein celsuis: (C x 9/5) + 32
+                    </aside>
+                </div>
+            </section>
+            
+            <div style="clear:both"></div>
+
+            <section id="weight" class="b weight">
+                <div id="wgt">
+                    <figure>
+                        <img src="img/pounds.jpg" width="150px">
+                        <figcaption>Kilogram To Pounds Convertion</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>WEIGHT</legend>
+                            <label>Kilogram</label><br>
+                            <input type="number" id="kg"><br>
+                            <button id="weight" onclick="weight()">Convert</button><br>
+                            <input type="number" id="lbs"><br>
+                            <label>Pounds</label>
+                        </fieldset>
+                        <aside>To convert Kilogram to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205</aside>
+                    </article>
+                </div>
+            </section>
+
+            <div style="clear:both"></div>
+
+            <section id="distance" class="b kilo">
+                <div id="dst">
+                    <figure>
+                        <img src="img/distance.jpg" width="150px">
+                        <figcaption></figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>DISTANCE</legend>
+                            <lebel>Kilometer</lebel><br>
+                            <input type="number" id="k"><br>
+                            <button onclick="distance()">Convert</button><br>
+                            <input type="number" id="m"><br>
+                            <lebel>Mile</lebel><br>
+                        </fieldset>
+                        <aside> To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilometers: km &divide; 1.609</aside>
+                    </article>
+                </div>
+            </section>
+
+            <div style="clear:both"></div>
+
+        </div>
+    </body>
+    <div id="go-home">
+        <a href="#home">
+            <img src="img/home.png" width="50">
+        </a>
+    </div>
+    <footer> &copy; All Right Reserved @ wemtech.com ........Learn more about convertions <a href="https://www.calculator.net/conversion-calculator.html">here</a></footer>
+</html>
