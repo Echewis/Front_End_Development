@@ -90,6 +90,12 @@ body {
   
   .container {
     display: flex;
+    p {
+      padding-left: 30px;
+    }
+    h1 {
+      padding-left: 30px;
+    }
     
   }
   
@@ -114,10 +120,11 @@ body {
   }
   
   .profile_image {
-    width: 500px;
+    width: 300px;
     height: fit-content;
     vertical-align: middle;
     margin: 5px;
+    border-radius: 100px;
   }
   
   /* Skills */
